@@ -31,16 +31,18 @@ public:
 	
 	
 	
-	friend const Complex operator+(const Complex& left, const Complex& right) {
+	friend const Complex operator+(const Complex& left, const Complex& right) 
+	{
 		return Complex(left.realPart + right.realPart, left.imaginaryPart + right.imaginaryPart);
 	}
 
-	friend const Complex operator*(const Complex& left, const double right) {
+	friend const Complex operator*(const Complex& left, const double right) 
+	{
 		return Complex(left.realPart * right, left.imaginaryPart * right);
 	}
 
 	
-	Complex& operator=(Complex&that);
+	//Complex& operator=(Complex&that);
 	
 	
 	
