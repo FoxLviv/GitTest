@@ -14,8 +14,8 @@ Complex::~Complex()
 
 Complex::Complex(const Complex & c)
 {
-	realPart = c.realPart;
-	imaginaryPart = c.imaginaryPart;
+	this->realPart = c.realPart;
+	this->imaginaryPart = c.imaginaryPart;
 }
 
 double Complex::GetRP()
