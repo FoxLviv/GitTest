@@ -1,5 +1,5 @@
-a = 3
-b = 2
-c = a + b
-print(c)
-print("hi")
+a = 3;
+b = 2;
+c = a + b;
+print(c);
+print("hi");
